@@ -199,7 +199,7 @@ def start(message):
         save_user_settings(user_id_str)
     bot.send_message(
         message.chat.id,
-        "Soo dhawow! Waxaan ahay Somali Text to Speech bot waxaa i samee yay zack3d:\n\nii soo dir qoraal si aan ugu badalo cod💗",
+        "Soo dhawow! Waxaan ahay Somali Text to Speech bot waxaa i samee yay zack3d:\n\nii soo dir qoraal si aan ugu badalo cod💗\n taabo meesha ayku qoran tahay Menu si aad codka u hagaa jiso 😍",
         reply_markup=keyboard,
         reply_to_message_id=message.message_id
     )
