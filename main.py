@@ -412,14 +412,14 @@ def handle_media(message):
         return
     size = getattr(file_info, "file_size", 0)
     if size and size > MAX_UPLOAD_SIZE:
-        bot.send_message(message.chat.id, f"Fadlan soo dir fayl ka yar {MAX_UPLOAD_MB}MB.", reply_to_message_id=message.message_id)
+        bot.send_message(message.chat.id, f"Fadlan soo dir Cod ama Video ka yar {MAX_UPLOAD_MB}MB 🤓", reply_to_message_id=message.message_id)
         return
     status_msg = None
     stop_event = threading.Event()
     spinner_thread = threading.Thread(target=keep_sending_upload_action, args=(message.chat.id, stop_event))
     spinner_thread.daemon = True
     try:
-        status_msg = bot.reply_to(message, "Farsameynaya codka...") 
+        status_msg = bot.reply_to(message, "Ok wax yar sug 👍") 
     except:
         status_msg = None
     spinner_thread.start()
@@ -444,13 +444,13 @@ def handle_media(message):
             logging.exception("Transcription error: %s", e)
             text = ""
         if not text:
-            bot.send_message(message.chat.id, "Waa raalligelin — ma aanan fahmin codkaaga.", reply_to_message_id=message.message_id)
+            bot.send_message(message.chat.id, "ma aanan fahmin codka.", reply_to_message_id=message.message_id)
         else:
             send_long_text(message.chat.id, text, message.message_id)
     except Exception as e:
         logging.exception("handle_media error: %s", e)
         try:
-            bot.send_message(message.chat.id, "Khalad ayaa dhacay marka lagu farsameynayey faylka.", reply_to_message_id=message.message_id)
+            bot.send_message(message.chat.id, "Khalad ayaa dhacay 😓", reply_to_message_id=message.message_id)
         except:
             pass
     finally:
