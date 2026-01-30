@@ -281,7 +281,7 @@ def start(message):
         save_user_settings(user_id_str)
     bot.send_message(
         message.chat.id,
-        "Soo dhawow! Waxaan ahay Somali Text to Speech bot (waxaan kaloo leeyahay Speech-to-Text feature).\n\nIi soo dir qoraal si aan ugu badalo cod💗\nTaabo Menu si aad wax badan u ogaato",
+        "👋🏻 Soo dhawow! Waxaan ahay SomTTS Bot waxaan qoraalada afsomaliga ubadali karaa cod ai afsomali sidoo kale waxaan codadka iyo muuqaalada English ka iyo Carabi ga ubadali karaa qoraal hadii hadal uu jiro 😜 \n\nIi soo dir qoraal si aan ugu badalo cod 💗 ama soo dir muuqaal ama cod ka yar 20mb si aan u qoro 😎",
         reply_markup=keyboard,
         reply_to_message_id=message.message_id
     )
