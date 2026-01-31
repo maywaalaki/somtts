@@ -55,7 +55,6 @@ def process_text_with_groq(text):
     3. Magacyada gaarka ah ama hubka sida F-35 u qor (Ef sodon iyo shan).
     4. Ha ku darin wax sharaxaad ah ama raali-gelin ah.
     5. Kaliya soo saar qoraalka la saxay oo diyaarka u ah in la akhriyo.
-    6. Haddii qoraalku yahay mid horey u saxnaa, ha beddelin, sidooda u daa.
     """
     if not key_manager.keys:
         return text
