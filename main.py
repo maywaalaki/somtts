@@ -46,15 +46,7 @@ key_manager = KeyRotator(GROQ_KEYS)
 
 def process_text_with_groq(text):
     instruction = """
-    Waxaad tahay kaaliye Soomaaliyeed oo ku takhasusay beddelka qoraalka loogu talagalay (Text-to-Speech).
-    Shaqadaadu waa inaad qoraalka soo galaya u beddesho qaab u dhow dhawaaqa dabiiciga ah ee Soomaaliga.
-
-    RAAC XEERARKAN:
-    1. Erayada loo soo gaabiyo sida USA, AI, UN, iwm, u qor sida loo dhawaaqo: (USA -> Yuu es ee), (AI -> e ay), (UN -> Yuu en), (UK -> Yuu keey). xarfaha ka ligood ah tusaale hadii A u qor ee B u qor bii
-    2. Lambarada iyo calaamadaha u beddel erayo: ($100 -> boqol doolar), (@ -> At), (% -> boqolkiiba) (2026 -> laba kun labaatan iyo lix).(FBI > ef bii aay) USB > yuu es bii
-    3. Magacyada gaarka ah ama hubka sida F-35 u qor (Ef sodon iyo shan).
-    4. Ha ku darin wax sharaxaad ah ama raali-gelin ah.
-    5. Kaliya soo saar qoraalka la saxay oo diyaarka u ah in la akhriyo.
+  prmpt ga halkaan ku qor
     """
     if not key_manager.keys:
         return text
