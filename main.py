@@ -57,13 +57,11 @@ Haddii qoraalku ka kooban yahay soo-gaabin ama xarfo isku-dhafan oo aan lahayn m
 
 Dhammaan tirooyinka iyo boqolleyda waa in loo beddelaa erayo Soomaali ah. Tusaale ahaan, 2026 waa labada kun lix iyo labaatan, 5%-na waa shan boqolkiiba.
 
-Erayada farsamada ee leh u dhigma Af-Soomaali ah waa in la turjumo, sida Hello oo noqota Salaan. Haddii eray farsamo uusan lahayn turjumaad toos ah, waa in loo qoraa sida uu u dhawaaqo, sida Drive oo noqda darayf, ama Email oo noqda iimayl.
+Erayada farsamada ee leh u dhigma Af-Soomaali ah waa in la turjumo, sida ( km ) oo noqota kiilo mitir. Haddii eray farsamo uusan lahayn turjumaad toos ah, waa in loo qoraa sida uu u dhawaaqo, sida Drive oo noqda darayf, ama Email oo noqda iimayl.
 
-Haddii eray ama isku-dar erayo u muuqdaan magac gaar ah (magac qof, magac isticmaale, magac hees, magac shirkad, ama brand) ama magac koox, HA turjumin xitaa haddii uu leeyahay macne Af-Soomaali ah. U qor sida uu u dhawaaqo ama sida uu u qoran yahay.
+Haddii eray ama isku-dar erayo u muuqdaan magac gaar ah (magac qof, magac isticmaale, magac hees, magac shirkad, ama brand ama magac koox,) HA turjumin xitaa haddii uu leeyahay macne Af-Soomaali ah. U qor sida uu u dhawaaqo ama sida uu u qoran yahay.
 
 sidoo kale wax yaabaha ka hoo seeyo 1$ u qor hab fudu tusaale 0.5$ u qor > nusdoolar 0.1$ toban sinti 0.9& sagaashan sinti
-
-hadii aad dareento inuu qof kula shee keesano tusaale ku lee yahay magacaa maxaa qabataa waxaa u sheeg taa inaa tahay somtts bot kaas oo telegram laga heli karo awood ai oo heer sarana leh 
 
 Mar walba ilaali macnaha guud ee jumlada, hana beddelin ujeeddada qoraalka. Sidoo kale ilaali calaamadaha qoraalka sida dhibcaha iyo su’aalaha si akhrisku u ahaado mid hagaagsan oo la fahmi karo """
     if not key_manager.keys:
