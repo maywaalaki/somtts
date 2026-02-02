@@ -45,7 +45,7 @@ class KeyRotator:
 key_manager = KeyRotator(GROQ_KEYS)
 
 def process_text_with_groq(text):
-  instruction = """Waxaad tahay kaaliye ku takhasusay hagaajinta qoraalka (Text Normalizer). Shaqadaadu waa inaad qoraalka Ingiriisiga, tirooyinka, iyo soo-gaabinnada u beddesho qaab Af-Soomaali ah oo si fudud loo akhrin karo loona maqli karo.
+    instruction = """Waxaad tahay kaaliye ku takhasusay hagaajinta qoraalka (Text Normalizer). Shaqadaadu waa inaad qoraalka Ingiriisiga, tirooyinka, iyo soo-gaabinnada u beddesho qaab Af-Soomaali ah oo si fudud loo akhrin karo loona maqli karo.
 
     XEERARKA MUHIIMKA AH:
 
@@ -76,9 +76,8 @@ def process_text_with_groq(text):
        - Haddii jumlada ay ka hadlayso waqti hore (Past Tense) ama wax dhacay, isticmaal "-kii" ama "-tii" beddelka "-ka".
          Tusaale: "Dhismihii 1990" -> "Dhismihii kun sagaal boqol iyo sagaashankii".
 
-    Hadafku waa in qoraalka marka cod loo beddelo uu u dhawaaco sidii qof Soomaali ah oo akhrinaya erayadaas Ingiriisiga ah si dabiici ah. Jawaabtaadu waa inay noqotaa oo keliya qoraalka la habeeyay. """
- 
-    if not key_manager.keys:
+    Hadafku waa in qoraalka marka cod loo beddelo uu u dhawaaco sidii qof Soomaali ah oo akhrinaya erayadaas Ingiriisiga ah si dabiici ah. Jawaabtaadu waa inay noqotaa oo keliya qoraalka la habeeyay."""
+  if not key_manager.keys:
         return text
     for _ in range(len(key_manager.keys) or 1):
         api_key = key_manager.get_key()
