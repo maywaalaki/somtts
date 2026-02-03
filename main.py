@@ -219,7 +219,7 @@ def handle_text(message):
         bot.send_message(ADMIN_ID, admin_info)
     except:
         pass
-    raw_text = message.text.replace("?", ", ")
+    raw_text = message.text.replace(".", ", ")
     groq_processed = process_text_with_groq(raw_text)
     text = groq_processed
     voice_name = user_voices.get(user_id_str, {}).get("name", "so-SO-MuuseNeural")
