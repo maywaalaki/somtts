@@ -183,7 +183,7 @@ def start(message):
     if uid not in user_voices:
         user_voices[uid] = {"name": "so-SO-MuuseNeural", "label": "Muuse 👨🏻‍🦱"}
         save_user_settings(uid)
-    bot.send_message(message.chat.id, "👋 Soo dhawow SomTTS Bot\nIi soo dir qoraal ama cod", reply_markup=create_voice_keyboard())
+    bot.send_message(message.chat.id, "Soo dhawow! Waxaan ahay Somali Text to Speech bot waxaa i samee yay zack3d:\n\nii soo dir qoraal si aan ugu badalo cod💗", reply_markup=create_voice_keyboard())
 
 @bot.message_handler(func=lambda m: m.text in ["Ubax 👩🏻‍🦳", "Muuse 👨🏻‍🦱"])
 def set_voice(message):
