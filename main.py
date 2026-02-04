@@ -237,11 +237,11 @@ def handle_text(message):
         guide_text = (
             "📌 Fadlan raac tilmaamahan si aad u hesho cod tayo fiican leh:\n\n"
             "✅ Soo dir only qoraal Af-Soomaali ah\n"
-            "✅ Haddii ay jiraan erayo English ah, u qor sidaan\n\n"
+            "✅ Haddii ay jiraan erayo English ah, u qor hab dhawaaq somali\n\n"
             "Tusaale:\n"
             "YouTube → yuu tuub\n"
             "USB → yuu es bii\n"
-            "Google → guugal\n\n"
+            "Google → googal\n\n"
             "❌ Ha isticmaalin English badan si toos ah\n\n"
             "iga soo follow garee https://www.tiktok.com/@zack3d Mahadsanid 💗"
         )
