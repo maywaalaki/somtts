@@ -196,10 +196,9 @@ def start(message):
     get_user_data(message.from_user.id)
     keyboard = create_voice_keyboard()
     bot.send_message(
-        message.chat.id,
-        "Soo dhawow! Waxaan ahay Somali Text to Speech bot waxaa i samee yay zack3d:\n\nii soo dir qoraal si aan ugu badalo cod💗",
-        reply_markup=keyboard,
-        reply_to_message_id=message.message_id
+    message.chat.id,
+    'Soo dhawow! Waxaan ahay Somali Text to Speech bot waxaa i samee yay <a href="https://www.tiktok.com/@zack3d">zack3d</a>:\n\nii soo dir qoraal si aan ugu badalo cod💗',
+    parse_mode="HTML"
     )
 
 @bot.message_handler(func=lambda m: m.text in ["Ubax 👩🏻‍🦳", "Muuse 👨🏻‍🦱"])
