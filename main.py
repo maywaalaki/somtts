@@ -12,7 +12,7 @@ import tempfile
 import subprocess
 import logging
 
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "8508232988:AAEZOvGOU9WNtC5JIhQWV68LL3gI3i-2RYg")
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "8508232988:AAETkYzPTnevP3hylhX-I_v0UDrK0h1wD9k")
 WEBHOOK_URL_BASE = os.environ.get("WEBHOOK_URL_BASE", "https://somtts.onrender.com")
 PORT = int(os.environ.get("PORT", "8080"))
 WEBHOOK_PATH = os.environ.get("WEBHOOK_PATH", "/webhook/")
