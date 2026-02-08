@@ -19,7 +19,7 @@ WEBHOOK_PATH = os.environ.get("WEBHOOK_PATH", "/webhook/")
 WEBHOOK_URL = WEBHOOK_URL_BASE.rstrip('/') + WEBHOOK_PATH if WEBHOOK_URL_BASE else ""
 DOWNLOADS_DIR = os.environ.get("DOWNLOADS_DIR", "./downloads")
 os.makedirs(DOWNLOADS_DIR, exist_ok=True)
-PIN_SOURCE = os.environ.get("PIN_SOURCE", "@somttsbot_tutorial")
+PIN_SOURCE = os.environ.get("PIN_SOURCE", "1003516493646")
 
 GROQ_KEYS = os.environ.get("GROQ_KEYS", "")
 GROQ_TEXT_MODEL = os.environ.get("GROQ_TEXT_MODEL", "openai/gpt-oss-120b")
