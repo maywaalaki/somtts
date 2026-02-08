@@ -259,7 +259,7 @@ def cmd_rate(message):
         return
     user = get_user_data(message.from_user.id)
     current = user.get("rate", 0)
-    bot.send_message(message.chat.id, "Halkan ka hagaaji xawaaraha:", reply_markup=rate_keyboard(current))
+    bot.send_message(message.chat.id, "si aad uhagaaji so xawaaraha taabo calaamada ➕ ta ama ➖:", reply_markup=rate_keyboard(current))
 
 @bot.message_handler(commands=['pitch'])
 def cmd_pitch(message):
@@ -268,7 +268,7 @@ def cmd_pitch(message):
         return
     user = get_user_data(message.from_user.id)
     current = user.get("pitch", 0)
-    bot.send_message(message.chat.id, "Halkan ka hagaaji pitch-ka:", reply_markup=pitch_keyboard(current))
+    bot.send_message(message.chat.id, "si aad u hagaaji sid dhawaaqa taabo calaamada ➕ ta ama ➖ ta :", reply_markup=pitch_keyboard(current))
 
 @bot.callback_query_handler(func=lambda call: call.data and call.data.startswith(("rate_", "pitch_")))
 def slider_handler(call):
