@@ -102,6 +102,8 @@ YOUR ONLY TASK IS:
    - 1k -> kun
    - 536k -> shan boqol sodon iyo lix kun
    - 27% -> boqol kiiba labaatan iyo todobo
+   - 15.50$ -> shan iyo toban doolar iyo konton sinti
+   - 26.89$ -> laabatn iyo lix dooolar iyo sideetan iyo sagaal sinti
 2. DO NOT change anything else:
    - Do NOT translate words
    - Do NOT fix grammar
