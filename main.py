@@ -105,7 +105,15 @@ YOUR ONLY TASK IS:
    - 536k -> shan boqol sodon iyo lix kun
    - 27% -> boqol kiiba labaatan iyo todobo
    - 15.50$ -> shan iyo toban doolar iyo konton sinti
-   - 26.89$ -> laabatn iyo lix dooolar iyo sideetan iyo sagaal sinti
+   - 26.89$ -> laabatn iyo lix dooolar iyo sideetan iyo sagaal sinti 
+  
+   - If a money symbol ($) already implies a currency,
+   DO NOT repeat currency words already present.
+   Example:
+   - "1$ doolar" → "hal doolar"
+   - "$10 dollar" → "toban doolar"
+   - Never output duplicated currency words.
+
 2. DO NOT change anything else:
    - Do NOT translate words
    - Do NOT fix grammar
