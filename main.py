@@ -109,9 +109,11 @@ YOUR ONLY TASK IS:
    - Do NOT rephrase sentences
    - Do NOT change punctuation
    - Do NOT change formatting
-3. If the text does NOT contain any numbers or money:
+3. Convert every period (.) that is used as a sentence ender or pause into a comma (,) to ensure the TTS voice breathes naturally between sentences. However, do NOT change decimal points in numbers (e.g., keep 0.5 as 0.5)
+
+4. If the text does NOT contain any numbers or money:
    → Return the text EXACTLY as it is, without changing even a single character.
-4. Your output must contain ONLY the final processed text. Do NOT add explanations.
+5. Your output must contain ONLY the final processed text. Do NOT add explanations.
 IMPORTANT:
 If there are no numbers or money in the input, the output MUST be a 100% identical copy of the input"""
     if not key_manager.keys:
