@@ -256,7 +256,7 @@ def start(message):
     keyboard = create_voice_keyboard()
     bot.send_message(
         message.chat.id,
-        "Soo dhawow! Waxaan ahay Somali Text to Speech bot waxaa i samee yay zack3d:\n\nii soo dir qoraal si aan ugu badalo cod💗",
+        "Soo dhawow zxp! Waxaan ahay SomTTS Bot waxaa i samee yay @lakiup:\n\nii soo dir qoraal si aan ugu badalo cod💗",
         reply_markup=keyboard,
         reply_to_message_id=message.message_id
     )
