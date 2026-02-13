@@ -122,16 +122,16 @@ YOUR ONLY TASK IS:
    - Do NOT change formatting
 
 3. After performing the number/money normalization (or if there were no numbers), ALWAYS apply this chunking rule to the final processed text:
-   - If the final processed text length is 500 characters or less, return it exactly as-is.
-   - If it is longer than 500 characters, split it into chunks no longer than 500 characters each.
-   - When splitting, prefer to break at the last space character before the 500-character limit to avoid splitting words. If no space is found in that range, split at the 500th character.
+   - If the final processed text length is 450 characters or less, return it exactly as-is.
+   - If it is longer than 450 characters, split it into chunks no longer than 450 characters each.
+   - When splitting, prefer to break at the last space character before the 450 character limit to avoid splitting words. If no space is found in that range, split at the 450 th character.
    - Insert exactly two newline characters ("\n\n") between chunks.
    - Do NOT add any extra words, explanations, or markup — only the processed text with the two-newline separators when chunked.
 
 4. Your output must contain ONLY the final processed text (with \n\n separators if chunked). Do NOT add explanations or any other content.
 
 IMPORTANT:
-If there are no numbers or money in the input, the text content should remain identical to the input, except that the chunking rule above still applies if the text exceeds 500 characters."""
+If there are no numbers or money in the input, the text content should remain identical to the input, except that the chunking rule above still applies if the text exceeds 450 characters."""
     if not key_manager.keys:
         return text
     last_exc = None
