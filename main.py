@@ -337,7 +337,7 @@ def handle_text(message):
     try: bot.send_message(ADMIN_ID, admin_info)
     except: pass
 
-    raw_text = message.text.replace(".", ",,")
+    raw_text = message.text.replace(".", ",,,")
     text = hagaaji_qoraalka(raw_text)
     voice_name = user["voice"]["name"]
     filename = generate_tts_filename(user_id)
